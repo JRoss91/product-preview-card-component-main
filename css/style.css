@@ -1,0 +1,104 @@
+:root {
+  --green: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --dark-blue: hsl(212, 21%, 14%);
+  --gray-blue: hsl(228, 12%, 48%);
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 14px;
+}
+
+.attribution {
+  font-size: 11px;
+  position: absolute;
+  width: 100vw;
+  height: 22px;
+  background-color: aliceblue;
+  bottom: 0;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: var(--cream);
+    width: 90%;
+    height: 80%;
+    max-width: 1200px;
+    max-height: 600px;
+    min-height: 350px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    background-color: white;
+    width: 90%;
+    height: 70%;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    min-width: 400px;
+    max-width: 500px;
+    min-height: 370px;
+    max-height: 600px;
+}
+
+.left {
+    width: 50%;
+    background-image: url(/images/image-product-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    padding: 1.5rem;
+}
+
+button {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--green);
+    color: white;
+    font-family: 'Fraunces';
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn-img {
+    width: 20%;
+    padding: 12px;
+}
